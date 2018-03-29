@@ -67,6 +67,10 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
+  
+  ///Custom declarations
+  MatrixXd P_aug_;
+  int n_sig_;
 
   /**
    * Constructor
